@@ -15,5 +15,11 @@ package com.rma.test.sonar.uglyclasses;
  */
 public class ShouldFailSonarAnalysis
 {
-	
+	public static void main(String[] args)
+	{
+		if(args == null)
+		{
+			String throwNullPointer = args[0];
+		}
+	}
 }
